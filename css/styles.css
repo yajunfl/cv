@@ -89,21 +89,109 @@ a:hover {
   background-color: #2F3D4F;
   color: #fff;
   text-align: left;
-  background-image: url("../images/index-bg.jpg");
+  /* background-image: url("../images/index-bg.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
-  padding-bottom: 100%;
+  background-size: auto 100%;
+  padding-bottom: 100%; */
 }
 
 
 #index .container-fluid {
-  padding: 3% 10% 0%;
+  padding-left: 5em;
+  padding-right: 5em;
+
+
+}
+
+.top-index {
+  /* background-image: url("../images/top-index-bg.jpg"); */
+  /* background-repeat: no-repeat;
+  background-size: auto 100%;
+  padding-bottom: 100%; */
+  /* background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center; */
+  /* background: url("../images/top-index-bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+
+  background-image: url("../images/top-index-bg.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: cover;
+
+
+}
+
+
+
+.bottom-index {
+  /* background-image: url("../images/bottom-index-bg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding-bottom: 100%; */
+  background-image: url("../images/top-index-bg.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: cover;
 }
 
 .index-big-text {
   position: sticky;
   margin-top: 90%;
 }
+
+.navbar-logo {
+  max-height: 2em;
+}
+
+.yellow-rectangle {
+  height: 20vw;
+  width: 15vw;
+  border: 5px solid;
+  color: yellow;
+  margin-left: 20px;
+
+}
+
+.index-text {
+  color: white;
+  font-size:3vw;
+  font-weight: 900;
+  position: absolute;
+  left: 20px;
+  top: 220px;
+  margin-left: 20px;
+}
+
+/* change viewwith windows size */
+@media (max-width: 555px) {
+  .yellow-rectangle {
+    height: 20vw;
+    width: 15vw;
+    border: 5px solid;
+    color: yellow;
+    margin-left: 20px;
+
+  }
+
+  .index-text {
+    color: white;
+    font-size:3vw;
+    font-weight: 900;
+    position: absolute;
+    left: 20px;
+    top: 220px;
+    margin-left: 20px;
+  }
+}
+
+/* .inex-text-rec {
+  display: flex;
+  justify-content: space-between;
+} */
 
 #contact-us {
   background-color: #2F3D4F;
