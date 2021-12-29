@@ -132,10 +132,10 @@ a:hover {
   background-repeat: no-repeat;
   background-size: auto;
   padding-bottom: 100%; */
-  background-image: url("../images/top-index-bg.jpg");
-  background-size: contain;
+  /* background-image: url("../images/top-index-bg.jpg");
+  background-size: 100% auto;
   background-repeat: no-repeat;
-  background-position: cover;
+  background-position: cover; */
 }
 
 .index-big-text {
@@ -148,6 +148,7 @@ a:hover {
 }
 
 .yellow-rectangle {
+
   height: 20vw;
   width: 15vw;
   border: 5px solid;
@@ -167,24 +168,17 @@ a:hover {
 }
 
 /* change viewwith windows size */
-@media (max-width: 555px) {
+@media (max-width: 800px) {
   .yellow-rectangle {
-    height: 20vw;
-    width: 15vw;
-    border: 5px solid;
-    color: yellow;
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
 
   }
 
   .index-text {
-    color: white;
-    font-size:3vw;
-    font-weight: 900;
-    position: absolute;
-    left: 20px;
+    left: 200px;
     top: 220px;
-    margin-left: 20px;
   }
 }
 
