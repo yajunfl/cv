@@ -345,6 +345,13 @@ a:hover {
    text-align: center;
   }
 
+  #first {
+    order: 2;
+  }
+
+  #second {
+    order: 1;
+  }
 }
 
 #contact-us {
